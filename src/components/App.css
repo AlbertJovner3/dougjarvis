@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Roboto:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+:root {
+    --ff-primary: 'Abyssinica SIL', sans-serif;
+    --ff-secondary: 'Roboto', sans-serif;
+    --ff-style: 'Oswald', sans-serif;
+    --ff-italic: 'Sansita', sans-serif;
+    --ff-bilbo: 'Bilbo Swash Caps', cursive;
+    --ff-titles: 'Bebas Neue', cursive;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    
+    --clr-font1: #ffffff;
+    --clr-accent: #B50303;
+    --clr-sub: #ededed;
+
+}
+
+
+.slider {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    height: 600px;
+}
+
