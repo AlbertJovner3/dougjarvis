@@ -19,7 +19,7 @@ export const HeroPap = () => {
             <HeroContent>
                 <HeroH1>Papamoa Plaza</HeroH1>
                 <HeroP>
-                    Contact us at:
+                    Contact us at: 07 572 0090
                 </HeroP>
                 
             </HeroContent>

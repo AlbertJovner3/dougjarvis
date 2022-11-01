@@ -16,9 +16,10 @@ import {
 function App() {
 
   const [users, setUsers] = useState([]);
-  const usersCollectionRef = collection(db, "doug_about");
+  
  
   useEffect(() => {
+    const usersCollectionRef = collection(db, "doug_about");
     const getUsers = async () => {
       const data = await getDocs(usersCollectionRef);
       setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));

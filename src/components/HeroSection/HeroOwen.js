@@ -1,9 +1,7 @@
 import React from 'react'
-import Image from '../../Video/OwensPlace.mp4'
 import { 
     HeroBox, 
-    HeroBg, 
-    VideoBg, 
+    HeroBg,
     HeroContent, 
     HeroH1, 
     HeroP
@@ -15,12 +13,11 @@ export const HeroOwen = () => {
     return (
         <HeroBox >
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Image} tpye='video/mp4'/>
             </HeroBg>
             <HeroContent>
                 <HeroH1>Owens Place</HeroH1>
                 <HeroP>
-                    Contact us at: 
+                    Contact us at: 07 575 7582
                 </HeroP>
                 
             </HeroContent>
